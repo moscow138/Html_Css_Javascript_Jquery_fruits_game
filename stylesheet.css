@@ -1,0 +1,143 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle,#fff,#ccc);
+    
+}
+
+#container{
+    height: 550px;
+    width: 550px;
+  /*  background-color: #9dd2ea; */
+    background-image: url(images/game-background.jpg);
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #f3706c;
+   -webkit-box-shadow: 0px 4px 0px 0px #f3706c;
+   -mz-box-shadow: 0px 4px 0px 0px #f3706c;
+    position: relative;
+    
+        
+    
+}
+
+.life{
+
+    height: 12px;
+    width: 12px;
+    margin-right: 2px;
+}
+
+.fruit{
+    
+    display: none;
+    position: absolute;
+    background: lightyellow;
+    
+}
+
+#score{
+    background-color:#f1ff92;
+    color:  #888e5f;
+    padding:10px;
+    position: absolute;
+    left:500px;
+    border-radius: 40px;
+    box-shadow: 0px 3px #9da853;
+    -mz-box-shadow: 0px 3px #9da853;
+    -webkit-box-shadow: 0px 3px #9da853;
+
+}
+
+#trialsleft{
+    background-color:#f1ff92;
+    color:  #888e5f;
+    padding:10px;
+    position: absolute;
+    width: 50px;
+    border-radius: 40px;
+    box-shadow: 0px 3px #9da853;
+    -mz-box-shadow: 0px 3px #9da853;
+    -webkit-box-shadow: 0px 3px #9da853;
+    display: ;
+
+}
+
+
+#fruitsContainer{
+    
+    background-color: lightyellow;
+    height: 400px;
+    width: 550px;
+    margin: 50px auto 9px auto;
+    box-shadow: 0px 4px #535aa8;
+     -mz-box-shadow: 0px 4px #f3706c;
+     -webkit-box-shadow: 0px 4px #f3706c;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+#instruction{
+    
+    border-radius: 5px;
+   /* background-color: #b481d9; */
+     background-color: rgba(225,225,225,0.9);
+    height: 50px;
+    width: 450px;
+    position: relative;
+    left:70px;
+    margin-top: 2px;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0px 4px #8153a8;
+    -webkit-box-shadow: 0px 4px #f3706c;
+    -mz-box-shadow: 0px 4px #f3706c;
+    font-family: cursive;
+    
+    
+}
+
+
+.box:hover,#startreset:hover{
+    background-color:#f3706c;
+    color: antiquewhite;
+    box-shadow: 0px 4px #f3706c;
+}
+
+#startreset{
+    width: 78px;
+    padding: 10px;
+    background-color: rgba(225,225,225,0.9);
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0,0,0,0.2);
+   -webkit-box-shadow: 0px 4px rgba(0,0,0,0.2);
+    -ms-box-shadow: 0px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -mz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+#gameover{
+    width:500px ;
+    height: 250px;
+    background: linear-gradient(#f3ca6b,#f3706c);
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: helvetica;
+    border-radius: 5px;
+    position: absolute;
+    top: 150px;
+    left: 45px;
+    z-index: 2;
+    display: none;
+    
+}
